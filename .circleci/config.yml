@@ -9,7 +9,7 @@ jobs:
       - checkout
       - run:
           name: Install test dependencies
-          command: pip install . pandas
+          command: pip install . pandas pytest
       - run:
           name: Run unit tests
           command: pytest
